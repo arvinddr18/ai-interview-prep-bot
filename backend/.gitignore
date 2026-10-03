@@ -1,0 +1,9 @@
+# Node dependencies - never upload these (huge and re-installable)
+node_modules/
+
+# Secret environment variables - NEVER upload this
+.env
+
+# Logs and OS junk
+*.log
+.DS_Store
